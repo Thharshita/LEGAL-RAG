@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic cache
+alembic/versions/__pycache__/
+
+# Logs
+*.log
+
+# Local SQLite (if ever used)
+*.db
+
+# Model / embedding cache (if you store locally)
+*.pkl
+*.bin
+*.pt
+
+# Temporary files
+*.tmp
+*.bak
